@@ -1,0 +1,9 @@
+D:/machine-vision/build/CMakeFiles/Experimental.dir
+D:/machine-vision/build/CMakeFiles/Nightly.dir
+D:/machine-vision/build/CMakeFiles/Continuous.dir
+D:/machine-vision/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/machine-vision/build/CMakeFiles/machine-vision.dir
+D:/machine-vision/build/CMakeFiles/PACKAGE.dir
+D:/machine-vision/build/CMakeFiles/RUN_TESTS.dir
+D:/machine-vision/build/CMakeFiles/ALL_BUILD.dir
+D:/machine-vision/build/CMakeFiles/ZERO_CHECK.dir
