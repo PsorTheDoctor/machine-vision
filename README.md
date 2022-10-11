@@ -1,2 +1,2 @@
 # machine-vision
-Report exercises on machine vision course.
+Report exercises for the machine vision course.
