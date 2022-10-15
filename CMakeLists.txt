@@ -7,7 +7,7 @@ enable_testing()
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(machine-vision main.cpp)
+add_executable(machine-vision report_exercises/ex3_histogram.cpp)
 
 target_link_libraries(machine-vision ${OpenCV_LIBS})
 
