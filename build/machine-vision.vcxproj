@@ -312,7 +312,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\machine-vision\report_exercises\ex3_histogram.cpp" />
+    <ClCompile Include="D:\machine-vision\report_exercises\ex6_edge_detection.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\machine-vision\build\ZERO_CHECK.vcxproj">
