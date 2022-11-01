@@ -7,7 +7,7 @@ enable_testing()
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(machine-vision report_exercises/ex6_edge_detection.cpp)
+add_executable(machine-vision report_exercises/ex8_distance_transform.cpp)
 
 target_link_libraries(machine-vision ${OpenCV_LIBS})
 
