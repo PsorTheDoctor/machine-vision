@@ -7,7 +7,7 @@ enable_testing()
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(machine-vision report_exercises/ex8_distance_transform.cpp)
+add_executable(machine-vision report_exercises/ex10_background_subtraction.cpp)
 
 target_link_libraries(machine-vision ${OpenCV_LIBS})
 
