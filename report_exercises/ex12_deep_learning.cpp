@@ -14,8 +14,8 @@ int main(int argc, char** argv) {
   double sum = 0;
 
   for (int i = 0; i < 4; i++) {
-    sum += w[i] * x[i] + b;
+    sum += w[i] * x[i];
   }
-  cout << sigmoid(sum) << endl;
+  cout << sigmoid(sum + b) << endl;
   return 0;
 }

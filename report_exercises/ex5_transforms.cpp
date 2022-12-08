@@ -15,18 +15,18 @@ void computeProjection(double input[3][1], double output[3][1]) {
     {0,  0,  1}
   };
   double T[3][4] = {
-    {0.5,  0.866, 0, 0.1},
-    {0.866, -0.5, 0, 0.1},
-    {0,        0, 1, 1.2}
+    {0.5,  0.866,  0, 0.1},
+    {0.866, -0.5,  0, 0.1},
+    {0,        0, -1, 1.2}
   };
-  double KT[3][3];
+  double KT[3][4];
 
-  double X[3][1] = {
-    {input[0][0]}, {input[1][0]}, {input[2][0]}
+  double X[4][1] = {
+    {input[0][0]}, {input[1][0]}, {input[2][0]}, {1}
   };
 
   for (int i = 0; i < 3; i++) {
-    for (int j = 0; j < 3; j++) {
+    for (int j = 0; j < 4; j++) {
       KT[i][j] = 0;
       for (int k = 0; k < 3; k++) {
         KT[i][j] += K[i][k] * T[k][j];
